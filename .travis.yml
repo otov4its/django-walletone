@@ -1,0 +1,23 @@
+language: python
+python:
+- '3.4'
+env:
+- TOXENV=py27-django17
+- TOXENV=py27-django18
+- TOXENV=py27-django19
+- TOXENV=py34-django17
+- TOXENV=py34-django18
+- TOXENV=py34-django19
+- TOXENV=docs
+- TOXENV=flake8
+install:
+- pip install tox
+script: tox
+deploy:
+  provider: pypi
+  user: otov4its
+  password:
+    secure: u8peM0iP8mBHFvr50zYteexK8s0Nv1XRWKlyU+AqH4STrxyWpy0Ku5VIpUlxT3yVl7Xn16b8zGD4/5zSbZAXYj8Kre3u2YHLo84zk1p1Ze5y+j9i9NHpFo8TLVsegN1eIp730FfshjBfJdKFxeA3HXlu5Gvs28K6j6ilrXR6P0olQxSY/mavpel9FR6U+KxfK6AMfsF1uW9rAvhvScECO9hYZWcRoiBUbEyGxgpWr4JV/3sDzsA/DScGc1BdNJpvLQ8PT+X5jSZ40ejUtBkUFfIxnONAdY+VeggnmPP/AYXT5TNkNXtpkM7Q//f9F9eYsnL5l0/j5Hr1GVGpmnLd2x6vu6lHk+7nsHbmYbSzI6A5lYADb0mPyYmhSP9/+6qmN8WTjqxkL0jMMx6ZBg/fNIQkI2LZeNSyfplyXUd7vu+zUoRwhYWdsselUJ6P+wSlGJVTi9pHpafVdBWXaIqM90U7ZwXSLiKjGRQW5fznEsZ44mMpt0DmAZiZ8NKacB3pkL12ai4fzZ00Mf7dv3wNjRGgeD3BP3slpgQi90pNLSGzXL6XUgucirP26OlSCXHJfdPBJj3oDuEn+EulUHjQQp+K8UQ7I5GCOZc4sstyNx0zCqt/sAjqjFvv59SI24ZOVjHkhwDMcTygdUzeEq+WBMJW+HoK9MB4v0w7OWJI9BI=
+  on:
+    tags: true
+  distributions: sdist bdist_wheel
