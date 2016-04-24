@@ -13,7 +13,7 @@ setup(
     version=__version__,
     description='WalletOne payment system integration in Django.',
     long_description=long_description(),
-    url='https://github.com/otov4its/django_walletone',
+    url='https://github.com/otov4its/django-walletone',
     license='MIT',
     author='Stanislav Otovchits',
     author_email='otov4its@gmail.com',
