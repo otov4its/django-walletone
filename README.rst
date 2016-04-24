@@ -1,6 +1,19 @@
 Django WalletOne
 ================
 
+.. image:: https://img.shields.io/pypi/v/django-walletone.svg
+    :target: https://travis-ci.org/otov4its/django-walletone
+
+.. image:: https://travis-ci.org/otov4its/django-walletone.svg?branch=master
+    :target: https://travis-ci.org/otov4its/django-walletone
+
+.. image:: https://readthedocs.org/projects/django-walletone/badge/?version=latest
+    :target: http://django-walletone.readthedocs.org/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://coveralls.io/repos/github/otov4its/django-walletone/badge.svg?branch=master
+
+
 Django WalletOne is a pluggable application that integrates
 with WalletOne online payments provider.
 
