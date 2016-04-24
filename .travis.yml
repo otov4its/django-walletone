@@ -1,15 +1,6 @@
 language: python
 python:
 - '3.4'
-env:
-- TOXENV=py27-django17
-- TOXENV=py27-django18
-- TOXENV=py27-django19
-- TOXENV=py34-django17
-- TOXENV=py34-django18
-- TOXENV=py34-django19
-- TOXENV=docs
-- TOXENV=flake8
 install:
 - pip install tox coveralls
 script: tox
