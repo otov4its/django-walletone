@@ -2,12 +2,7 @@
 Release notes
 =============
 
-Version 1.0.0a3
----------------
-
-* Travis CI testing
-
-Version 1.0.0a2
+Version 1.0.0a4
 ---------------
 
 * Fix home page url in setup.py
