@@ -2,7 +2,7 @@
 Release notes
 =============
 
-Version 1.0.0a4
+Version 1.0.0a5
 ---------------
 
 * Fix home page url in setup.py
