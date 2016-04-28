@@ -8,7 +8,7 @@ Django WalletOne
     :target: https://travis-ci.org/otov4its/django-walletone
 
 .. image:: https://readthedocs.org/projects/django-walletone/badge/?version=latest
-    :target: http://django-walletone.readthedocs.org/en/latest/?badge=latest
+    :target: http://django-walletone.readthedocs.io/en/latest/?badge=latest
 
 .. image:: https://coveralls.io/repos/github/otov4its/django-walletone/badge.svg?branch=master
     :target: https://coveralls.io/github/otov4its/django-walletone
@@ -22,7 +22,7 @@ Django WalletOne supports Django 1.7 to 1.9 on Python 2.7, 3.4.
 
 |
 
-See https://django-walletone.readthedocs.org/ for application documentation.
+See https://django-walletone.readthedocs.io/ for application documentation.
 
 See https://www.walletone.com/en/merchant/documentation/ for
 native WalletOne documentation.
